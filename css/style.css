@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+}
+
+ul{
+    list-style: none;
+}
+
+.main{
+    text-align: center;
+}
+
+.input-box{
+    width: 300px;
+    padding: 8px;
+}
+
+.input-box::placeholder{
+    font-size: 17px;
+    font-weight: 400;
+    font-style: italic;
+    text-transform: capitalize;
+    letter-spacing: 1px;
+    color: #9999996d;
+}
+
+.input-btn {
+    width: 100px;
+    padding: 7px 0px 10px;
+    margin-left: -4px;
+    border: none;
+    background: lightgreen;
+    font-size: 18px;
+    font-weight: 600;
+    text-transform: capitalize;
+    color: darkorange;
+}
+
+.update-btn {
+    width: 100px;
+    padding: 7px 0px 10px;
+    margin-left: -4px;
+    border: none;
+    background: lightcoral;
+    font-size: 18px;
+    font-weight: 600;
+    text-transform: capitalize;
+    color: teal;
+}
